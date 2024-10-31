@@ -1,0 +1,26 @@
+.seven_days_checkbox .checkbox{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 0;
+	background: none;
+	cursor: pointer;
+	background: url(../images/checkbox-bg.png);
+}
+.seven_days_checkbox .checked{
+	background-position: 0 -40px;
+}
+.seven_days_checkbox{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float: left;
+	overflow: hidden;
+	height: 20px;
+	background: url(../images/day-bar.png);
+	margin: 0 0 15px 0;
+}
+.seven_days_checkbox .hide{
+	display: none;
+}
